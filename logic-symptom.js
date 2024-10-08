@@ -43,7 +43,7 @@ document.getElementById('symptomForm').addEventListener('submit', function(e) {
     }
 
     if (potentialDisease !== "Unknown disease") {
-        resultDiv.innerHTML = `<strong>Possible Disease:</strong> ${potentialDisease}<br><a href="${diseaseURL}" target="_blank">Read more about this disease</a>`;
+        resultDiv.innerHTML = `<strong>Possible Disease:</strong><br>${potentialDisease}<br><a href="${diseaseURL}" target="_blank">Read more about ${potentialDisease}</a>`;
     } else {
         resultDiv.innerHTML = `<strong>Possible Disease:</strong> ${potentialDisease}`;
     }

@@ -139,14 +139,27 @@ document.getElementById('symptom-form').addEventListener('submit', function (eve
             filteredDoctors.forEach(doctor => {
                 const card = document.createElement('div');
                 card.classList.add('card');
+                card.classList.add('mb-3');
+                //card.style.maxWidth = "540px";
                 card.innerHTML = `
-                    <img src="${doctor.image}" alt="${doctor.name}" class="doctor_pic">
-                    <h2>${doctor.name}</h2>
-                    <p>Specialty: ${doctor.specialty}</p>
-                    <p>City: ${doctor.city}</p>
-                    <p>Address: <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(doctor.address)}" target="_blank" rel="noopener noreferrer">${doctor.address}</a></p>
-                    <p>Email: <a href="mailto:${doctor.email}">${doctor.email}</a></p>
-                    <p>Phone: ${doctor.phone}</p>
+                    <!--<div class="card mb-3" style="max-width: 540px;">-->
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="${doctor.image}" alt="${doctor.name}" class="img-fluid rounded-start">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">${doctor.name}</h5>
+          <p class="card-text">Specialty: ${doctor.specialty}</p>
+          <p class="card-text">City: ${doctor.city}</p>
+          <p class="card-text">Address: <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(doctor.address)}" target="_blank" rel="noopener noreferrer">${doctor.address}</a></p>
+          <p class="card-text">Email: <a href="mailto:${doctor.email}">${doctor.email}</a></p>
+          <p class="card-text">Phone: ${doctor.phone}</p><div class="card mb-3" style="max-width: 540px;">
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+</div>
                 `;
                 resultsDiv.appendChild(card);
             });

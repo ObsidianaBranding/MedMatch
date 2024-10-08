@@ -8,6 +8,8 @@ body {
     justify-content: center; /* Center content horizontally */
 }
 
+
+
 /* Container to Centralize Content */
 .container {
     max-width: 800px;   /* Max width of 800px */
@@ -59,9 +61,15 @@ button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
 
+
 /* Results Section */
 #results {
     margin-top: 20px; /* Space above results */
+    display: grid;
+    place-items: center; /* Centers content horizontally and vertically */
+    height: 100vh; /* Or any specific height */display: grid;
+    place-items: center; /* Centers content horizontally and vertically */
+    height: 100vh; /* Or any specific height */
 }
 
 /* Card Styles */

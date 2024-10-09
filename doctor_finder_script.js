@@ -7,7 +7,7 @@ const doctors = [
     address: "321 Maple Ave",
     email: "johnson@example.com",
     phone: "555-111-2222",
-    image: "/img/doctors/1.jpg",
+    image: "img/doctors/1.jpg",
   },
   {
     name: "Dr. Brown",
@@ -16,7 +16,7 @@ const doctors = [
     address: "654 Pine St",
     email: "brown@example.com",
     phone: "555-333-4444",
-    image: "/img/doctors/2.jpg",
+    image: "img/doctors/2.jpg",
   },
   {
     name: "Dr. Taylor",
@@ -25,7 +25,7 @@ const doctors = [
     address: "987 Cedar Rd",
     email: "taylor@example.com",
     phone: "555-444-5555",
-    image: "/img/doctors/3.jpg",
+    image: "img/doctors/3.jpg",
   },
   {
     name: "Dr. Wilson",
@@ -34,7 +34,7 @@ const doctors = [
     address: "234 Birch Blvd",
     email: "wilson@example.com",
     phone: "555-555-6666",
-    image: "/img/doctors/4.jpg",
+    image: "img/doctors/4.jpg",
   },
   {
     name: "Dr. Lee",
@@ -43,7 +43,7 @@ const doctors = [
     address: "456 Spruce St",
     email: "lee@example.com",
     phone: "555-666-7777",
-    image: "/img/doctors/5.jpg",
+    image: "img/doctors/5.jpg",
   },
   {
     name: "Dr. Harris",
@@ -52,7 +52,7 @@ const doctors = [
     address: "678 Elm St",
     email: "harris@example.com",
     phone: "555-777-8888",
-    image: "/img/doctors/6.jpg",
+    image: "img/doctors/6.jpg",
   },
   {
     name: "Dr. Clark",
@@ -61,7 +61,7 @@ const doctors = [
     address: "890 Ash Dr",
     email: "clark@example.com",
     phone: "555-888-9999",
-    image: "/img/doctors/7.jpg",
+    image: "img/doctors/7.jpg",
   },
   {
     name: "Dr. Lewis",
@@ -70,7 +70,7 @@ const doctors = [
     address: "135 Walnut St",
     email: "lewis@example.com",
     phone: "555-999-0000",
-    image: "/img/doctors/8.jpg",
+    image: "img/doctors/8.jpg",
   },
   {
     name: "Dr. Robinson",
@@ -79,7 +79,7 @@ const doctors = [
     address: "246 Cherry Ln",
     email: "robinson@example.com",
     phone: "555-000-1111",
-    image: "/img/doctors/9.jpg",
+    image: "img/doctors/9.jpg",
   },
   {
     name: "Dr. Walker",
@@ -88,7 +88,7 @@ const doctors = [
     address: "357 Willow Ct",
     email: "walker@example.com",
     phone: "555-222-3333",
-    image: "/img/doctors/10.jpg",
+    image: "img/doctors/10.jpg",
   },
   {
     name: "Dr. Hall",
@@ -97,7 +97,7 @@ const doctors = [
     address: "468 Hickory Dr",
     email: "hall@example.com",
     phone: "555-444-2222",
-    image: "/img/doctors/11.jpg",
+    image: "img/doctors/11.jpg",
   },
   {
     name: "Dr. Allen",
@@ -106,7 +106,7 @@ const doctors = [
     address: "579 Fir Ave",
     email: "allen@example.com",
     phone: "555-666-0000",
-    image: "/img/doctors/12.jpg",
+    image: "img/doctors/12.jpg",
   },
   {
     name: "Dr. Young",
@@ -115,7 +115,7 @@ const doctors = [
     address: "690 Cedar St",
     email: "young@example.com",
     phone: "555-888-2222",
-    image: "/img/doctors/13.jpg",
+    image: "img/doctors/13.jpg",
   },
   {
     name: "Dr. King",
@@ -124,7 +124,7 @@ const doctors = [
     address: "801 Pine Rd",
     email: "king@example.com",
     phone: "555-999-4444",
-    image: "/img/doctors/14.jpg",
+    image: "img/doctors/14.jpg",
   },
   {
     name: "Dr. Wright",
@@ -133,7 +133,7 @@ const doctors = [
     address: "912 Maple Blvd",
     email: "wright@example.com",
     phone: "555-111-4444",
-    image: "/img/doctors/15.jpg",
+    image: "img/doctors/15.jpg",
   },
   {
     name: "Dr. Scott",
@@ -142,7 +142,7 @@ const doctors = [
     address: "123 Oak Ct",
     email: "scott@example.com",
     phone: "555-222-5555",
-    image: "/img/doctors/16.jpg",
+    image: "img/doctors/16.jpg",
   },
   {
     name: "Dr. Torres",
@@ -151,7 +151,7 @@ const doctors = [
     address: "234 Elm Blvd",
     email: "torres@example.com",
     phone: "555-333-6666",
-    image: "/img/doctors/17.jpg",
+    image: "img/doctors/17.jpg",
   },
   {
     name: "Dr. Nguyen",
@@ -160,7 +160,7 @@ const doctors = [
     address: "345 Birch Rd",
     email: "nguyen@example.com",
     phone: "555-444-7777",
-    image: "/img/doctors/18.jpg",
+    image: "img/doctors/18.jpg",
   },
   {
     name: "Dr. Hill",
@@ -169,7 +169,7 @@ const doctors = [
     address: "456 Ash St",
     email: "hill@example.com",
     phone: "555-555-8888",
-    image: "/img/doctors/19.jpg",
+    image: "img/doctors/19.jpg",
   },
   {
     name: "Dr. Green",
@@ -178,7 +178,7 @@ const doctors = [
     address: "567 Walnut Ave",
     email: "green@example.com",
     phone: "555-666-9999",
-    image: "/img/doctors/20.jpg",
+    image: "img/doctors/20.jpg",
   },
   {
     name: "Dr. Adams",
@@ -187,7 +187,7 @@ const doctors = [
     address: "678 Cedar Ct",
     email: "adams@example.com",
     phone: "555-777-0000",
-    image: "/img/doctors/21.jpg",
+    image: "img/doctors/21.jpg",
   },
   {
     name: "Dr. Nelson",
@@ -196,7 +196,7 @@ const doctors = [
     address: "789 Spruce Blvd",
     email: "nelson@example.com",
     phone: "555-888-1111",
-    image: "/img/doctors/22.jpg",
+    image: "img/doctors/22.jpg",
   },
   {
     name: "Dr. Carter",
@@ -205,7 +205,7 @@ const doctors = [
     address: "890 Oak Rd",
     email: "carter@example.com",
     phone: "555-999-2222",
-    image: "/img/doctors/23.jpg",
+    image: "img/doctors/23.jpg",
   },
   {
     name: "Dr. Mitchell",
@@ -214,7 +214,7 @@ const doctors = [
     address: "135 Maple St",
     email: "mitchell@example.com",
     phone: "555-111-3333",
-    image: "/img/doctors/24.jpg",
+    image: "img/doctors/24.jpg",
   },
   {
     name: "Dr. Perez",
@@ -223,7 +223,7 @@ const doctors = [
     address: "246 Elm St",
     email: "perez@example.com",
     phone: "555-222-4444",
-    image: "/img/doctors/25.jpg",
+    image: "img/doctors/25.jpg",
   },
   {
     name: "Dr. Roberts",
@@ -232,7 +232,7 @@ const doctors = [
     address: "357 Birch Blvd",
     email: "roberts@example.com",
     phone: "555-333-5555",
-    image: "/img/doctors/26.jpg",
+    image: "img/doctors/26.jpg",
   },
   {
     name: "Dr. Turner",
@@ -241,7 +241,7 @@ const doctors = [
     address: "468 Ash Ct",
     email: "turner@example.com",
     phone: "555-444-6666",
-    image: "/img/doctors/27.jpg",
+    image: "img/doctors/27.jpg",
   },
   {
     name: "Dr. Phillips",
@@ -250,7 +250,7 @@ const doctors = [
     address: "579 Walnut St",
     email: "phillips@example.com",
     phone: "555-555-7777",
-    image: "/img/doctors/28.jpg",
+    image: "img/doctors/28.jpg",
   },
   {
     name: "Dr. Campbell",
@@ -259,7 +259,7 @@ const doctors = [
     address: "690 Cedar Blvd",
     email: "campbell@example.com",
     phone: "555-666-8888",
-    image: "/img/doctors/29.jpg",
+    image: "img/doctors/29.jpg",
   },
   {
     name: "Dr. Parker",
@@ -268,7 +268,7 @@ const doctors = [
     address: "801 Oak St",
     email: "parker@example.com",
     phone: "555-777-9999",
-    image: "/img/doctors/30.jpg",
+    image: "img/doctors/30.jpg",
   },
   {
     name: "Dr. Edwards",
@@ -277,7 +277,7 @@ const doctors = [
     address: "912 Maple Rd",
     email: "edwards@example.com",
     phone: "555-888-0000",
-    image: "/img/doctors/31.jpg",
+    image: "img/doctors/31.jpg",
   },
   {
     name: "Dr. Collins",
@@ -286,7 +286,7 @@ const doctors = [
     address: "321 Elm Ct",
     email: "collins@example.com",
     phone: "555-999-1111",
-    image: "/img/doctors/32.jpg",
+    image: "img/doctors/32.jpg",
   },
   {
     name: "Dr. Stewart",
@@ -295,7 +295,7 @@ const doctors = [
     address: "654 Pine Rd",
     email: "stewart@example.com",
     phone: "555-111-2222",
-    image: "/img/doctors/33.jpg",
+    image: "img/doctors/33.jpg",
   },
   {
     name: "Dr. Sanchez",
@@ -304,7 +304,7 @@ const doctors = [
     address: "987 Cedar St",
     email: "sanchez@example.com",
     phone: "555-333-4444",
-    image: "/img/doctors/34.jpg",
+    image: "img/doctors/34.jpg",
   },
   {
     name: "Dr. Morris",
@@ -313,7 +313,7 @@ const doctors = [
     address: "135 Birch St",
     email: "morris@example.com",
     phone: "555-444-5555",
-    image: "/img/doctors/35.jpg",
+    image: "img/doctors/35.jpg",
   },
   {
     name: "Dr. Rogers",
@@ -322,7 +322,7 @@ const doctors = [
     address: "246 Maple Blvd",
     email: "rogers@example.com",
     phone: "555-555-6666",
-    image: "/img/doctors/36.jpg",
+    image: "img/doctors/36.jpg",
   },
   {
     name: "Dr. Reed",
@@ -331,7 +331,7 @@ const doctors = [
     address: "357 Pine Rd",
     email: "reed@example.com",
     phone: "555-666-7777",
-    image: "/img/doctors/37.jpg",
+    image: "img/doctors/37.jpg",
   },
   {
     name: "Dr. Cook",
@@ -340,7 +340,7 @@ const doctors = [
     address: "468 Cedar Ct",
     email: "cook@example.com",
     phone: "555-777-8888",
-    image: "/img/doctors/38.jpg",
+    image: "img/doctors/38.jpg",
   },
 ];
 

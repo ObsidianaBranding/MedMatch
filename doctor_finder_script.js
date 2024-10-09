@@ -459,7 +459,7 @@ document
                 <div class="col-md-4">
                     <img src="${doctor.image}" alt="${
                         doctor.name
-                    }" class="img-fluid rounded-start">
+                    }" class="img-fluid rounded-start cardimage">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -477,7 +477,7 @@ document
                     <p class="card-text">Phone: ${
                         doctor.phone
                     }</p><div class="card mb-3">
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <!--<p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>-->
                     </div>
                 </div>
                 </div>

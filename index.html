@@ -58,24 +58,28 @@
     <link rel="manifest" href="img/favicon/site.webmanifest" />
   </head>
 
-  <body class="d-flex h-100 text-center text-bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
-        <div>
-          <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center">
-                    <img src="img/favicon/apple-touch-icon.png" alt="Logo" class="img-fluid" style="max-width: 2rem;"> <!-- Adjust max-width as needed -->
-                    <h3 class="float-md-start mb-0">MedMatch</h3>
-                </div>
-            </div>
+  <body class="d-flex flex-column h-100 text-center text-bg-dark">
+    <div class="container flex-grow-1 mt-4">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center"
+        >
+          <img
+            src="img/favicon/apple-touch-icon.png"
+            alt="Logo"
+            class="img-fluid"
+            style="max-width: 3rem; width: 100%; margin-right: 0.5rem"
+          />
+          <h3 class="float-md-start mb-0" style="margin-top: 0.3rem">
+            MedMatch
+          </h3>
         </div>
-        
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a
-              class="nav-link fw-bold py-1 px-0 active"
-              aria-current="page"
-              href="index.html"
+        <div
+          class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center"
+          style="margin-top: 0.4rem"
+        >
+          <nav class="nav nav-masthead">
+            <a class="nav-link fw-bold py-1 px-0 active" href="index.html"
               >Doctor Finder</a
             >
             <a class="nav-link fw-bold py-1 px-0" href="symptom-checker.html"
@@ -84,69 +88,69 @@
             <a class="nav-link fw-bold py-1 px-0" href="contact.html"
               >Contact</a
             >
-            <a class="nav-link fw-bold py-1 px-0" href="about.html"
-              >About</a>
+            <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
           </nav>
         </div>
-      </header>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-5">
+          <main class="text-center max-width-540 mx-auto">
+            <h1>Doctor Finder</h1>
+            <p class="lead">Find a doctor to assist you with your symptoms</p>
 
-      <main class="px-3 max-width-540 mx-auto">
-        <h1>Doctor Finder</h1>
-        <p class="lead">Find a doctor to assist you with your symptoms</p>
+            <form id="symptom-form">
+              <div class="mb-3">
+                <label for="symptom" class="form-label">Enter a symptom:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="symptom"
+                  list="symptoms"
+                  required
+                />
+              </div>
+              <datalist id="symptoms">
+                <!-- Suggestions will be populated here -->
+              </datalist>
+              <div class="mb-3">
+                <label for="location" class="form-label"
+                  >Enter your location:</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  list="locations"
+                  required
+                />
+              </div>
 
-        <form id="symptom-form">
-          <div class="mb-3">
-            <label for="symptom" class="form-label">Enter a symptom:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="symptom"
-              list="symptoms"
-              required
-            />
-          </div>
-          <datalist id="symptoms">
-            <!-- Suggestions will be populated here -->
-          </datalist>
-          <div class="mb-3">
-            <label for="location" class="form-label"
-              >Enter your location:</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="location"
-              list="locations"
-              required
-            />
-          </div>
-
-          <datalist id="locations">
-            <!-- Suggestions will be populated here -->
-          </datalist>
-          <p class="lead">
-            <button
-              type="submit"
-              class="btn btn-lg btn-light fw-bold border-white bg-white"
-            >
-              Find Doctors
-            </button>
-          </p>
-        </form>
-        <div id="results">
-          <!-- Results will be populated here -->
+              <datalist id="locations">
+                <!-- Suggestions will be populated here -->
+              </datalist>
+              <p class="lead">
+                <button
+                  type="submit"
+                  class="btn btn-lg btn-light fw-bold border-white bg-white"
+                >
+                  Find Doctors
+                </button>
+              </p>
+            </form>
+            <div id="results">
+              <!-- Results will be populated here -->
+            </div>
+            <script src="doctor_finder_script.js"></script>
+          </main>
         </div>
-        <script src="doctor_finder_script.js"></script>
-      </main>
-
-      <footer class="mt-auto text-white-50">
-        <p>
-          Created by
-          <a href="https://obsidiana.pt/" class="text-white">Obsidiana</a>
-        </p>
-      </footer>
+      </div>
+      
     </div>
-
-    <!--<script src="./css/bootstrap.bundle.min.js.download" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
+    <footer class="mt-auto text-white-50">
+      <p>
+        Created by
+        <a href="https://obsidiana.pt/" class="text-white">Obsidiana</a>
+      </p>
+    </footer>
   </body>
 </html>

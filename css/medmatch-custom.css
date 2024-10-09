@@ -8,6 +8,16 @@
     --bs-link-hover-color: #e2dddc;
 }
 
+.card {
+    background-color: #dfd3d3;
+}
+
+.cardimage {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
 .nav-link {
     margin-right: 1rem;
 }
+

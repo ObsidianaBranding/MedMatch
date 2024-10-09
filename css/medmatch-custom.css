@@ -1,0 +1,13 @@
+.max-width-540 {
+    max-width: 540px;
+    width: 100%; /* Ensures it takes up the full width up to the max-width */
+  }
+
+:root {
+    --bs-link-color: #b6b1b0;
+    --bs-link-hover-color: #e2dddc;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}

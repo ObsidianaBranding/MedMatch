@@ -10,11 +10,16 @@
 
 .card {
     background-color: #dfd3d3;
+    overflow: hidden;
+    width: 100%;          /* Ensures the card takes full width */
+    overflow: hidden;     /* Prevents the image from overflowing the card */
 }
 
 .cardimage {
     margin-top: 10%;
     margin-left: 10%;
+    margin-right: 10%;
+    max-width: 10rem;
 }
 
 .nav-link {
